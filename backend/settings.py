@@ -7,7 +7,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-**8ap166a3hl&)0+1wdc(qh#-qy&uj!ygjpx_k)+$0vjkfky^y'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["spoto-turf-booker-backend.onrender.com", "localhost", "127.0.0.1"]
+
 
 GOOGLE_MAPS_API_KEY = "YOUR_GOOGLE_MAPS_API_KEY"
 
